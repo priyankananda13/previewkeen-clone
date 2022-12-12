@@ -1,0 +1,94 @@
+
+.left-navbar{
+    display: none;
+}
+.right-navbar{
+    padding: 5px;
+    gap: 5px;
+}
+.sidebar-menu{
+    display: block;
+    width: 0;
+}
+.sidebar-logo{
+    display: none;
+}
+.sidebarContent{
+    display: none;
+}
+.navbar{
+    width: calc(100vw - 50px);
+    left: 60px;
+    justify-content: flex-end;
+}
+.navRight{
+    width: 35px;
+}
+.main-website{
+    width: 100vw;
+    left: 0;
+}
+.languageBoxLogin{
+    top: 425px;
+    right: 50px;
+}
+
+
+
+.boxContent{
+    flex-direction: column;
+    gap: 4vh;
+}
+.topRowFirstColumn{
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+    gap: 4vh;
+}
+.topRowSecondColumn{
+    width: 100%;
+    gap: 4vh;
+}
+.insideBoxfirstColumn{
+    width: 100%;
+}
+.insidBoxSecondColum{
+    width: 100%;
+}
+.insideBoxRows{
+    height: 30vh;
+}
+#mainTagRightMiniHeader{
+    font-size: 15px;
+}
+#secondaryTagRightMiniHeader{
+    font-size: 10px;
+}
+.selCampaign{
+    width: 10rem;
+    font-size: 11px;
+}
+.selCampaignDropdown{
+    width: 10rem;
+}
+.bx-check{
+    left: 30px;
+}
+.searchBox{
+    right: 30px;
+}
+.notificationBox{
+    right: 30px;
+    width: 340px;
+}
+
+.activityL{
+    overflow: visible;
+}
+
+
+/* adding the toggle menu when screen size reduces below 984px  */
+.toggleSidebar{
+    display: flex;
+}
